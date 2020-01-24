@@ -11,7 +11,7 @@ setup(
     url="https://github.com/deep-compute/diskarray",
     download_url="https://github.com/deep-compute/diskarray/tarball/%s" % version,
     license="MIT License",
-    install_requires=["numpy==1.14.3", "basescript==0.2.9"],
+    install_requires=["numpy>=1.14.3", "basescript>=0.2.9"],
     package_dir={"diskarray": "diskarray"},
     packages=find_packages("."),
     include_package_data=True,
